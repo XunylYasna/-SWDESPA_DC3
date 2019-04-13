@@ -1,0 +1,22 @@
+.mainAnchor{
+     -fx-background-color: #FFFFFF;
+ }
+
+.topPane{
+    -fx-background-color: #1B1B1B;
+}
+
+.tabAnchor{
+    -fx-background-color: #000000;
+}
+
+/*tabs top bar*/
+.tabPane{
+    -fx-background-color: #1B1B1B;
+
+}
+
+#tab {
+    -fx-background-color: #1B1B1B;
+    -fx-text-fill: white;
+}
