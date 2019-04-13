@@ -6,17 +6,44 @@
     -fx-background-color: #1B1B1B;
 }
 
-.tabAnchor{
+
+/*Tab Related*/
+
+.tabpane{
     -fx-background-color: #000000;
+    -fx-tab-min-width:148px;
+    -fx-tab-max-width:148px;
+    -fx-tab-min-height:45px;
+    -fx-tab-max-height:45px;
 }
 
-/*tabs top bar*/
-.tabPane{
-    -fx-background-color: #1B1B1B;
-
+.tabpane .tab-header-area .tab-header-background{
+    -fx-alignment: center;
+    -fx-background-color: #1B1B1B !important;
 }
 
-#tab {
+
+.tab{
     -fx-background-color: #1B1B1B;
+    -fx-min-width: 500px;
+    -fx-max-width: 500px;
+}
+
+.tabpane .tab .tab-label{
+    -fx-alignment: CENTER;
     -fx-text-fill: white;
+    -fx-font-size: 13.5px; /* before it was 12px */
+    -fx-font-weight: bold;
+    -fx-wrap-text: true;
+    -fx-cursor:hand;
 }
+
+.tabpane .tab-selected-line{
+    -fx-background-color: #FF9900;
+}
+
+.tabAnchor{
+    -fx-background-color: black;
+}
+
+/**/
