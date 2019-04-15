@@ -17,18 +17,18 @@
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="780.0" prefWidth="1230.0" styleClass="mainAnchor" stylesheets="@../css/songhub.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.SongHubController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="759.0" prefWidth="1230.0" styleClass="mainAnchor" stylesheets="@../css/songhub.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.SongHubController">
    <children>
-      <HBox alignment="CENTER_LEFT" layoutY="20.0" prefHeight="70.0" prefWidth="1230.0" styleClass="topPane">
+      <HBox alignment="CENTER_LEFT" prefHeight="70.0" prefWidth="1230.0" styleClass="topPane">
          <children>
             <Pane prefHeight="70.0" prefWidth="70.0" />
             <Label prefHeight="18.0" prefWidth="80.0" stylesheets="@../css/songhub.css" text="SongHub" />
             <Pane prefHeight="70.0" prefWidth="127.0" />
             <JFXTextField fx:id="searchTf" onAction="#search" prefHeight="26.0" prefWidth="369.0" promptText="Search 7,812,716 music..." />
             <JFXButton fx:id="searchBtn" onAction="#search" styleClass="orangeBtn" text="Search" />
-            <Pane prefHeight="70.0" prefWidth="267.0" />
+            <Pane prefHeight="70.0" prefWidth="184.0" />
             <JFXButton fx:id="uploadBtn" onAction="#upload" prefHeight="32.0" prefWidth="79.0" text="Upload" />
-            <Pane prefHeight="70.0" prefWidth="42.0" />
+            <Pane prefHeight="70.0" prefWidth="157.0" />
             <MenuButton fx:id="userMenu" mnemonicParsing="false" prefHeight="42.0" prefWidth="159.0" styleClass="usermenu" text="Guest" textFill="WHITE">
                <items>
                   <MenuItem mnemonicParsing="false" onAction="#logout" text="Logout" />
@@ -40,7 +40,7 @@
             <Pane prefHeight="70.0" prefWidth="40.0" />
          </children>
       </HBox>
-      <AnchorPane layoutY="90.0" prefHeight="675.0" prefWidth="990.0">
+      <AnchorPane layoutY="70.0" prefHeight="675.0" prefWidth="990.0">
          <children>
             <StackPane prefHeight="675.0" prefWidth="990.0">
                <children>
@@ -105,7 +105,7 @@
                            <content>
                               <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="639.0" prefWidth="990.0">
                                  <children>
-                                    <JFXListView fx:id="songsLv" layoutY="44.0" prefHeight="885.0" prefWidth="990.0" />
+                                    <JFXListView fx:id="songsLv" layoutY="44.0" prefHeight="584.0" prefWidth="998.0" />
                                  </children>
                               </AnchorPane>
                            </content>
@@ -148,17 +148,11 @@
             </StackPane>
          </children>
       </AnchorPane>
-      <HBox layoutY="765.0" prefHeight="15.0" prefWidth="1230.0" style="-fx-background-color: red;" />
-      <AnchorPane layoutX="991.0" layoutY="90.0" prefHeight="675.0" prefWidth="239.0" style="-fx-background-color: blue;">
+      <HBox layoutY="745.0" prefHeight="15.0" prefWidth="1230.0" style="-fx-background-color: red;" />
+      <AnchorPane layoutX="991.0" layoutY="70.0" prefHeight="675.0" prefWidth="239.0" style="-fx-background-color: blue;">
          <children>
             <JFXListView fx:id="notifLv" layoutY="46.0" prefHeight="629.0" prefWidth="239.0" />
          </children>
       </AnchorPane>
-      <HBox layoutY="-2.0" prefHeight="15.0" prefWidth="1230.0" style="-fx-background-color: black;">
-         <children>
-            <Pane prefHeight="15.0" prefWidth="1158.0" />
-            <JFXButton minHeight="15.0" prefHeight="15.0" prefWidth="54.0" text="Close" />
-         </children>
-      </HBox>
    </children>
 </AnchorPane>

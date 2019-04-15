@@ -7,9 +7,12 @@ import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Labeled;
+import javafx.scene.control.MenuButton;
 import sample.Database.RegistrationHandler;
 
 public class RegistrationController {
+
+    public MenuButton typeMenu;
 
     @FXML
     private JFXButton exitBtn;
@@ -31,6 +34,8 @@ public class RegistrationController {
     @FXML
     private Labeled messageLbl;
 
+    private String registrationtype = "User";
+    
     @FXML
     void register(ActionEvent event){
         RegistrationHandler regis = new RegistrationHandler();
@@ -45,4 +50,14 @@ public class RegistrationController {
         System.exit(0);
     }
 
+
+    public void setUsertype(ActionEvent event) {
+        typeMenu.setText("User");
+        registrationtype = "User";
+    }
+
+    public void setArtisttype(ActionEvent event) {
+        typeMenu.setText("Artist");
+        registrationtype = "Artist";
+    }
 }
