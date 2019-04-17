@@ -6,7 +6,10 @@ public class Playlist {
     private int playlistID;
     private String playlistName;
     private String description;
+    private ArrayList<Song> songlist;
     private int author;
+
+
 
     public Playlist(int playlistID, String playlistName, String description, int author) {
         this.playlistID = playlistID;
@@ -29,5 +32,13 @@ public class Playlist {
 
     public int getAuthor() {
         return author;
+    }
+
+    public ArrayList<Song> getSonglist() {
+        return songlist;
+    }
+
+    public void setSonglist(ArrayList<Song> songlist) {
+        this.songlist = songlist;
     }
 }

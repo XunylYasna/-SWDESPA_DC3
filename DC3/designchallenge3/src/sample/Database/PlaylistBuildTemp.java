@@ -1,6 +1,7 @@
 package sample.Database;
 
 
+import sample.Database.SongListBuilderPattern.SongListBuilder;
 import sample.Model.Playlist;
 
 import java.sql.*;
@@ -9,7 +10,6 @@ import java.util.ArrayList;
 public class PlaylistBuildTemp {
 
     Connection myConn = DatabaseConnection.getDatabaseConn();
-    Statement statement = null;
     ResultSet resultSet;
 
     public ArrayList<Playlist> getPlaylists(int UserID){

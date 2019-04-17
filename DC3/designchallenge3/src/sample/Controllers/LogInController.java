@@ -12,9 +12,9 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Labeled;
 import javafx.stage.Stage;
+import sample.Controllers.SongHubControllers.SongHubController;
 import sample.Database.LoginHandler;
 
-import java.awt.*;
 import java.io.IOException;
 
 public class LogInController{

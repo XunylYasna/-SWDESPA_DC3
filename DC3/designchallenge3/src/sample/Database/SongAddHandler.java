@@ -58,7 +58,7 @@ public class SongAddHandler {
                 newSongTitle = resultSet.getString("MusicTitle");
                 newArtist = resultSet.getString("Artist");
                 newAlbum = resultSet.getString("Genre");
-                newGenre = resultSet.getString("Album");
+                newGenre = resultSet.getString("AlbumBuilder");
             }
 
 
