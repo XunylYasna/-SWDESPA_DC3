@@ -49,17 +49,18 @@ public class SongHubController implements Initializable {
     ArrayList<Song> arrayListsongs;
 
 //    Albums Tab
-    public JFXListView albumsLv;
+    public ListView albumsLv;
+    public ListView albumsongLv;
     private ObservableList albumOL = FXCollections.observableArrayList();
     ArrayList<String> arrayListalbums;
 
 //    Artists Tab
-    public JFXListView artistLv;
+    public ListView artistLv;
     private ObservableList artistOL = FXCollections.observableArrayList();
     ArrayList<User> arrayListartists;
 
 //    Genre Tab
-    public JFXListView genreLv;
+    public ListView genreLv;
     private ObservableList genresOL = FXCollections.observableArrayList();
     ArrayList<String> arrayListgenres;
 
