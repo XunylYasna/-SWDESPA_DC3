@@ -8,7 +8,7 @@ import javafx.scene.control.Labeled;
 import javafx.scene.image.Image;
 import javafx.scene.layout.*;
 import javafx.stage.FileChooser;
-import sample.Database.SongAddHandler;
+import sample.Database.EventHandlers.SongAddHandler;
 import sample.Model.Song;
 
 import java.io.File;

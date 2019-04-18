@@ -1,21 +1,17 @@
 package sample.Controllers;
 
 
-import com.jfoenix.controls.JFXHamburger;
-import javafx.collections.ObservableList;
-import javafx.event.Event;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Labeled;
 import javafx.scene.control.ListCell;
-import javafx.scene.control.MenuButton;
 import javafx.scene.control.MenuItem;
 import javafx.scene.input.ClipboardContent;
 import javafx.scene.input.Dragboard;
 import javafx.scene.input.TransferMode;
 import javafx.scene.layout.HBox;
-import sample.Database.SongDeleteHandler;
-import sample.Database.SongFavoriteHandler;
+import sample.Database.EventHandlers.SongDeleteHandler;
+import sample.Database.EventHandlers.SongFavoriteHandler;
 import sample.Model.Song;
 
 import java.io.IOException;

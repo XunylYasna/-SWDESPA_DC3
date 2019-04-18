@@ -8,7 +8,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Labeled;
 import javafx.scene.control.MenuButton;
-import sample.Database.RegistrationHandler;
+import sample.Database.EventHandlers.RegistrationHandler;
 
 public class RegistrationController {
 

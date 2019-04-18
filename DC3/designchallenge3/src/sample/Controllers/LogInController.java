@@ -13,7 +13,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Labeled;
 import javafx.stage.Stage;
 import sample.Controllers.SongHubControllers.SongHubController;
-import sample.Database.LoginHandler;
+import sample.Database.EventHandlers.LoginHandler;
 
 import java.io.IOException;
 
@@ -63,7 +63,7 @@ public class LogInController{
 
             Parent root = fxmlLoader.load();
             SongHubController songHubController = (SongHubController) fxmlLoader.getController();
-            songHubController.setUsername(username);
+            songHubController.setUser(username);
 
             Scene scene = new Scene(root);
             window.setScene(scene);

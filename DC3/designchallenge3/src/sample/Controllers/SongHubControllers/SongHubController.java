@@ -11,8 +11,8 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.layout.AnchorPane;
 import sample.Controllers.SongListViewCell;
-import sample.Database.SongListBuildTemp;
-import sample.Model.Album;
+import sample.Database.BuildTemp.SongListBuildTemp;
+import sample.Database.BuildTemp.UserBuildTemp;
 import sample.Model.Playlist;
 import sample.Model.Song;
 import sample.Model.User;
@@ -74,25 +74,62 @@ public class SongHubController implements Initializable {
 
 //    Non UI
     User user;
+
+//    Database Access
     SongListBuildTemp songListBuildTemp = new SongListBuildTemp(); // gets songs from the db
+    UserBuildTemp userBuildTemp = new UserBuildTemp();
 
 
 
 //
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        arrayListsongs = songListBuildTemp.getSongs(null,null);
+        initSongList();
+    }
 
+    public void setUser(String username){
+        if(username == null){
+            userMenu.setText("Guest");
+        }
+
+        else{
+            userMenu.setText(username);
+            UserBuildTemp userBuildTemp = new UserBuildTemp();
+            user = userBuildTemp.getUser(username);
+            System.out.println(user.getUserID());
+        }
+    }
+
+    public void initSongList(){
+        arrayListsongs = songListBuildTemp.getSongs(null,null);
         songOL.clear();
         songOL.setAll(arrayListsongs);
         songsLv.setItems(songOL);
 
         songsLv.setCellFactory(lv -> {
             SongListViewCell cell = new SongListViewCell();
-            cell.setUserID(-1);
+            cell.setUserID(user.getUserID());
             return cell;
         });
     }
+
+    public void initPlaylist(){
+
+    }
+
+    public void initArtist(){
+
+    }
+
+    public void initFollowing(){
+
+    }
+
+    public void initGenre(){
+
+    }
+
+
 
     public void logout(ActionEvent event) {
     }
@@ -103,7 +140,24 @@ public class SongHubController implements Initializable {
     public void upload(ActionEvent event) {
     }
 
-    public void setUsername(String username){
+
+
+
+
+
+    public void refreshAlbums(){
+
+    }
+
+    public void refreshPlaylists(){
+
+    }
+
+    public void refreshArtist(){
+
+    }
+
+    public void refreshFollowing(){
 
     }
 }

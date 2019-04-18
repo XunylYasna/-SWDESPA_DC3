@@ -1,7 +1,7 @@
 //package sample.Database.SongListBuilderPattern.concreteBuilders;
 //
 //import sample.Database.DatabaseConnection;
-//import sample.Database.SongListBuildTemp;
+//import sample.Database.BuildTemp.SongListBuildTemp;
 //import sample.Database.SongListBuilderPattern.SongListBuilder;
 //import sample.Model.Playlist;
 //import sample.Model.Song;

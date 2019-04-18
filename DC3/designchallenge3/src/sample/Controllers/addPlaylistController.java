@@ -5,7 +5,7 @@ import com.jfoenix.controls.JFXTextField;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Labeled;
-import sample.Database.PlayListAddHandler;
+import sample.Database.EventHandlers.PlayListAddHandler;
 import sample.Model.Playlist;
 
 public class addPlaylistController {

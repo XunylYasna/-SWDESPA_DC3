@@ -8,7 +8,7 @@ import javafx.scene.control.ListView;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Pane;
 import sample.Controllers.SongListViewCell;
-import sample.Database.SongListBuildTemp;
+import sample.Database.BuildTemp.SongListBuildTemp;
 import sample.Model.Song;
 
 import java.util.ArrayList;
