@@ -15,7 +15,7 @@ public class SongDeleteHandler {
     }
 
     public void deleteSong(int songID) {
-        String sql = "DELETE FROM song WHERE SongID = ?;";// insert insert user query here
+        String sql = "DELETE FROM song WHERE idsong = ?;";// insert insert user query here
         try {
             prepStatement = myConn.prepareStatement(sql);
             prepStatement.setInt(1, songID);

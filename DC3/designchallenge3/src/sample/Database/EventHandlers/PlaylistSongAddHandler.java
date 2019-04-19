@@ -14,7 +14,7 @@ public class PlaylistSongAddHandler {
 
     public void addSongtoPlaylist(int songID, int playlistID) {
 
-        String sql = "INSERT INTO songtoplaylist (SongID, PlaylistID)\n" +
+        String sql = "INSERT INTO songtoplaylist (songid, playlistid)\n" +
                 "values (?, ?)";// insert insert user query here
         try {
             prepStatement = myConn.prepareStatement(sql);

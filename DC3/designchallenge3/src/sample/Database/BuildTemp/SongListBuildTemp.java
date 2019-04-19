@@ -22,11 +22,11 @@ public class SongListBuildTemp {
         String genre;
         ArrayList<Song> songList = new ArrayList<>();
         Song song;
-        String sql = "SELECT * FROM gulaplay.song;";
+        String sql = "SELECT * FROM songhub.song;";
 
         try {
             if(filtercolumn != null && value != null){
-                PreparedStatement prepStatement = myConn.prepareStatement("SELECT * FROM gulaplay.song WHERE " + filtercolumn + " LIKE ?");
+                PreparedStatement prepStatement = myConn.prepareStatement("SELECT * FROM songhub.song WHERE " + filtercolumn + " LIKE ?");
                 prepStatement.setString(1,value);
                 resultSet = prepStatement.executeQuery();
             }
@@ -51,7 +51,7 @@ public class SongListBuildTemp {
         String artist;
         ArrayList<String> artistList = new ArrayList<>();
 
-        String sql = "SELECT DISTINCT " + columnname + " FROM gulaplay.song;";
+        String sql = "SELECT DISTINCT " + columnname + " FROM songhub.song;";
 
         try {
             statement = myConn.createStatement();
@@ -73,7 +73,7 @@ public class SongListBuildTemp {
         Song song;
 
         try {
-            PreparedStatement prepStatement = myConn.prepareStatement("SELECT * FROM gulaplay.songtoplaylist WHERE PlaylistID LIKE ?");
+            PreparedStatement prepStatement = myConn.prepareStatement("SELECT * FROM songhub.songtoplaylist WHERE playlistid LIKE ?");
             prepStatement.setInt(1,PlaylistID);
             resultSet = prepStatement.executeQuery();
 
@@ -101,7 +101,7 @@ public class SongListBuildTemp {
         Song song;
 
         try {
-            PreparedStatement prepStatement = myConn.prepareStatement("SELECT * FROM gulaplay.songuserfavorites WHERE userID LIKE ?");
+            PreparedStatement prepStatement = myConn.prepareStatement("SELECT * FROM songhub.songuserfavorites WHERE iduser LIKE ?");
             prepStatement.setInt(1,userID);
             resultSet = prepStatement.executeQuery();
 
@@ -132,7 +132,7 @@ public class SongListBuildTemp {
         ResultSet getSongResult;
 
         try {
-            PreparedStatement prepStatement = myConn.prepareStatement("SELECT * FROM gulaplay.song WHERE SongID LIKE ?");
+            PreparedStatement prepStatement = myConn.prepareStatement("SELECT * FROM songhub.song WHERE idsong LIKE ?");
             prepStatement.setInt(1,SongID);
             getSongResult = prepStatement.executeQuery();
 

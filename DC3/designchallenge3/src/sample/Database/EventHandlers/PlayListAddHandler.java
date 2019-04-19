@@ -16,10 +16,10 @@ public class PlayListAddHandler {
 
 
     public Playlist addPlaylist(String playlistName, String playlistDescription, int userID) {
-
+// Check yung names ng playlist table kasi baka may error for name. idplaylist used to be userID sa DC2 so baka may error dyan. Walang playlistDescription sa songhub DB
 //      temp
         Playlist playlist = null;
-        String sql = "INSERT INTO playlist (PlaylistName, PlaylistDescription, UserID)\n" +
+        String sql = "INSERT INTO playlist (name, PlaylistDescription, idplaylist)\n" +
                 "values (?, ?, ?)";// insert insert user query here
         try {
             prepStatement = myConn.prepareStatement(sql);
