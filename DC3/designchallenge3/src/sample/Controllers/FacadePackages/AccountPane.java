@@ -5,7 +5,7 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
-import sample.Database.SongListBuildTemp;
+import sample.Database.BuildTemp.SongListBuildTemp;
 import sample.Model.Song;
 import sample.Model.User;
 

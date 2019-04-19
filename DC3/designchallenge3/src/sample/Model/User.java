@@ -1,5 +1,7 @@
 package sample.Model;
 
+import sample.Database.BuildTemp.PlaylistBuildTemp;
+
 import java.util.ArrayList;
 
 public class User {
@@ -19,6 +21,8 @@ public class User {
         this.lastname = lastname;
         this.password = password;
         this.email = email;
+        PlaylistBuildTemp playlistBuildTemp = new PlaylistBuildTemp();
+        playlistList = playlistBuildTemp.getPlaylists(userID);
     }
 
     public void setPlaylistList(ArrayList<Playlist> playlistList) {

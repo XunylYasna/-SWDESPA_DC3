@@ -26,14 +26,14 @@ public class BlobSongGetter {
 
         BufferedImage albumCover = null;
 
-        sql = "SELECT AlbumCover From gulaplay.song WHERE SongID LIKE " + songID;
+        sql = "SELECT albumcover From songhub.song WHERE idsong LIKE " + songID;
 
         try {
             statement = myConn.createStatement();
             resultSet = statement.executeQuery(sql);
             byte[] imagebytes = null;
             while (resultSet.next()){
-                imagebytes = resultSet.getBytes("AlbumCover");
+                imagebytes = resultSet.getBytes("albumcover");
             }
             if(imagebytes != null)
                 albumCover = ImageIO.read(new ByteArrayInputStream(imagebytes));
@@ -64,14 +64,14 @@ public class BlobSongGetter {
         String path = "songToPlay.mp3";
         File songFile = null;
 
-        sql = "SELECT SongFile From gulaplay.song WHERE SongID LIKE " + songID;
+        sql = "SELECT songblob From songhub.song WHERE idsong LIKE " + songID;
 
         try {
             statement = myConn.createStatement();
             resultSet = statement.executeQuery(sql);
             byte[] filebytes = null;
             while (resultSet.next()){
-                filebytes = resultSet.getBytes("SongFile");
+                filebytes = resultSet.getBytes("songblob");
             }
             if(filebytes != null){
                 FileOutputStream fos = new FileOutputStream(path);
