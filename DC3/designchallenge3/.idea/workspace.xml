@@ -1,28 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="debug ui">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Controllers/FacadePackages/MusicPlayerMiddle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designchallenge3/sample/Controllers/FacadePackages/MusicPlayerMiddle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Controllers/LogInController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Controllers/RegistrationController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Controllers/SongHubControllers/SongHubController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designchallenge3/sample/Controllers/SongHubControllers/SongHubController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Controllers/SongListViewCell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Controllers/StartController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Controllers/addPlaylistController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Controllers/addSongController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Controllers/cellController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Model/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designchallenge3/sample/Model/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Views/fxml/SongHubArtist.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Views/fxml/addPlaylist.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Views/fxml/addSong.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Views/fxml/mainStart.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Views/fxml/pageLogIn.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Views/fxml/pageRegistration.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Views/fxml/songCell.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controllers/Cells/AlbumCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/Cells/AlbumCell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controllers/Start/LogInController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/Start/LogInController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Controllers/Start/StartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designchallenge3/sample/Controllers/Start/StartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controllers/Cells/SongListViewCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/Cells/SongListViewCell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controllers/SongHubControllers/SongHubController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/SongHubControllers/SongHubController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Controllers/Start/StartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/Start/StartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Views/fxml/Program/listviewCells/songCell.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Views/fxml/Program/listviewCells/songCell.fxml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -93,13 +79,13 @@
         <counts>
           <entry key="css" value="5" />
           <entry key="fxml" value="18" />
-          <entry key="java" value="79" />
+          <entry key="java" value="80" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="5" />
-          <entry key="JAVA" value="79" />
+          <entry key="JAVA" value="80" />
           <entry key="XML" value="18" />
         </counts>
       </usages-collector>
@@ -108,14 +94,15 @@
           <entry key="css" value="574" />
           <entry key="dummy" value="24" />
           <entry key="fxml" value="23" />
-          <entry key="java" value="2475" />
+          <entry key="java" value="2951" />
+          <entry key="txt" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="574" />
-          <entry key="JAVA" value="2475" />
-          <entry key="PLAIN_TEXT" value="24" />
+          <entry key="JAVA" value="2951" />
+          <entry key="PLAIN_TEXT" value="33" />
           <entry key="XML" value="23" />
         </counts>
       </usages-collector>
@@ -126,11 +113,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sample/Controllers/SongHubControllers/SongHubController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="122" column="13" selection-start-line="122" selection-start-column="13" selection-end-line="122" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Start/StartController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="62" column="17" lean-forward="true" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+            <state relative-caret-position="381">
+              <caret line="81" selection-start-line="81" selection-end-line="81" />
             </state>
           </provider>
         </entry>
@@ -138,26 +137,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Start/LogInController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="60" column="119" selection-start-line="60" selection-start-column="119" selection-end-line="60" selection-end-column="119" />
+            <state relative-caret-position="7">
+              <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Model/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Start/LogInController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="97" />
+            <state relative-caret-position="93">
+              <caret line="56" column="98" selection-start-line="56" selection-start-column="98" selection-end-line="56" selection-end-column="98" />
             </state>
           </provider>
         </entry>
@@ -195,8 +188,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Cells/SongListViewCell.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="-656">
+              <caret line="35" column="32" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="32" />
+              <folding>
+                <element signature="e#2900#2901#0" expanded="true" />
+                <element signature="e#2936#2937#0" expanded="true" />
+                <element signature="e#3452#3453#0" expanded="true" />
+                <element signature="e#3481#3482#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -249,7 +248,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sample/Database/PlayListAddHandler.java" />
         <option value="$PROJECT_DIR$/src/sample/Database/PlaylistSongAddHandler.java" />
         <option value="$PROJECT_DIR$/src/sample/Database/SongDeleteHandler.java" />
         <option value="$PROJECT_DIR$/src/sample/Database/SongAddHandler.java" />
@@ -295,11 +293,12 @@
         <option value="$PROJECT_DIR$/src/sample/Controllers/LogInController.java" />
         <option value="$PROJECT_DIR$/src/sample/Views/fxml/SongHubArtist.fxml" />
         <option value="$PROJECT_DIR$/src/sample/Model/Album.java" />
-        <option value="$PROJECT_DIR$/src/sample/Controllers/SongHubControllers/SongHubController.java" />
-        <option value="$PROJECT_DIR$/src/sample/Controllers/Cells/SongListViewCell.java" />
         <option value="$PROJECT_DIR$/src/sample/Controllers/Cells/AlbumCell.java" />
-        <option value="$PROJECT_DIR$/src/sample/Controllers/Start/StartController.java" />
         <option value="$PROJECT_DIR$/src/sample/Controllers/Start/LogInController.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controllers/Start/StartController.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controllers/Cells/SongListViewCell.java" />
+        <option value="$PROJECT_DIR$/src/sample/Model/User.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controllers/SongHubControllers/SongHubController.java" />
       </list>
     </option>
   </component>
@@ -494,7 +493,7 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555666616743" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555668038290" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -637,18 +636,26 @@
       <workItem from="1555429498749" duration="12544000" />
       <workItem from="1555569826406" duration="7387000" />
       <workItem from="1555661649686" duration="3522000" />
-      <workItem from="1555666225180" duration="269000" />
+      <workItem from="1555666225180" duration="1806000" />
     </task>
+    <task id="LOCAL-00001" summary="debug ui">
+      <created>1555666632947</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555666632947</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38514000" />
+    <option name="totallyTimeSpent" value="40051000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.22818792" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.22818792" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -657,7 +664,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32867134" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32867134" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -692,6 +699,8 @@
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <MESSAGE value="debug ui" />
+    <option name="LAST_COMMIT_MESSAGE" value="debug ui" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -941,16 +950,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/SongHubControllers/SongHubController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2159">
-          <caret line="129" column="23" selection-start-line="129" selection-start-column="23" selection-end-line="129" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Model/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -982,13 +981,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Cells/SongListViewCell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Cells/GenreCell.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1006,24 +998,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Model/User.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Start/LogInController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="93">
+          <caret line="56" column="98" selection-start-line="56" selection-start-column="98" selection-end-line="56" selection-end-column="98" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Start/StartController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="62" column="17" lean-forward="true" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+        <state relative-caret-position="381">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Start/LogInController.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Cells/SongListViewCell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="60" column="119" selection-start-line="60" selection-start-column="119" selection-end-line="60" selection-end-column="119" />
+        <state relative-caret-position="-656">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="32" />
+          <folding>
+            <element signature="e#2900#2901#0" expanded="true" />
+            <element signature="e#2936#2937#0" expanded="true" />
+            <element signature="e#3452#3453#0" expanded="true" />
+            <element signature="e#3481#3482#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/SongHubControllers/SongHubController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="122" column="13" selection-start-line="122" selection-start-column="13" selection-end-line="122" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

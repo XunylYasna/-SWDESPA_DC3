@@ -25,7 +25,7 @@
         <items>
           <MenuItem fx:id="deleteItem" mnemonicParsing="false" text="Delete" />
             <RadioMenuItem fx:id="addfavItem" mnemonicParsing="false" text="Add to Favorites" />
-            <Menu mnemonicParsing="false" text="Add To Playlist" />
+            <Menu fx:id="playlistSubMenu" mnemonicParsing="false" text="Add To Playlist" />
         </items>
       </MenuButton>
    </children>
