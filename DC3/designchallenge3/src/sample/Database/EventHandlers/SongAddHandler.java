@@ -16,10 +16,10 @@ public class SongAddHandler {
     ResultSet resultSet;
 
     public Song addSong(String title, String artist, String genre, String album, File photo, File song) {
-
+// Check yung same parameter names sa titles ng mga columns for songhub.song (Possible error??)
 //      temp
         FileInputStream input;
-        String sql = "INSERT INTO song (MusicTitle, Artist, Genre, Album, AlbumCover, SongFile)\n" +
+        String sql = "INSERT INTO song (title, artist, genre, album, albumcover, songblob)\n" +
                 "values (?, ?, ?, ?, ?, ?)";// insert insert user query here
         try {
             prepStatement = myConn.prepareStatement(sql);
@@ -44,7 +44,7 @@ public class SongAddHandler {
             prepStatement.execute();
 
             statement = myConn.createStatement();
-            sql = "Select * from song where SongID=LAST_INSERT_ID();";
+            sql = "Select * from song where idsong=LAST_INSERT_ID();";
             statement = myConn.createStatement();
             resultSet = statement.executeQuery(sql);
 

@@ -3,18 +3,18 @@ package sample.Controllers.Cells;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.control.Labeled;
-import javafx.scene.control.ListCell;
-import javafx.scene.control.MenuItem;
+import javafx.scene.control.*;
 import javafx.scene.input.ClipboardContent;
 import javafx.scene.input.Dragboard;
 import javafx.scene.input.TransferMode;
 import javafx.scene.layout.HBox;
 import sample.Database.EventHandlers.SongDeleteHandler;
 import sample.Database.EventHandlers.SongFavoriteHandler;
+import sample.Model.Playlist;
 import sample.Model.Song;
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 public class SongListViewCell extends ListCell<Song> {
 
@@ -31,10 +31,13 @@ public class SongListViewCell extends ListCell<Song> {
     @FXML
     private MenuItem deleteItem;
     @FXML
-    private MenuItem addfavItem;
+    private RadioMenuItem addfavItem;
+    @FXML
+    private Menu playlistSubMenu;
 
     FXMLLoader mLLoader;
     private int userID = -1;
+    private ArrayList<Playlist> playlists;
 
 
     @Override
@@ -47,7 +50,7 @@ public class SongListViewCell extends ListCell<Song> {
 
         } else {
             if (mLLoader == null) {
-                mLLoader = new FXMLLoader(getClass().getResource("../Views/fxml/Program/listviewCells/songCell.fxml"));
+                mLLoader = new FXMLLoader(getClass().getClassLoader().getResource("sample/Views/fxml/Program/listviewCells/songCell.fxml"));
                 mLLoader.setController(this);
                 try {
                     mLLoader.load();
@@ -63,7 +66,9 @@ public class SongListViewCell extends ListCell<Song> {
             cellGenreLbl.setText(song.getGenre());
 
             if(userID == -1){
+                deleteItem.setDisable(true);
                 addfavItem.setDisable(true);
+                playlistSubMenu.setDisable(true);
             }
 
             deleteItem.setOnAction(event -> {
@@ -77,6 +82,12 @@ public class SongListViewCell extends ListCell<Song> {
                 SongFavoriteHandler songFavoriteHandler = new SongFavoriteHandler();
                 songFavoriteHandler.favSong(getItem().getSongID(),userID);
             });
+
+            for(int i = 0; i < playlists.size(); i++){
+                Playlist playlist = playlists.get(i);
+                MenuItem menuItem = new MenuItem(playlist.getPlaylistName());
+                playlistSubMenu.getItems().add(menuItem);
+            }
 
             setOnDragDetected(event -> {
                 Dragboard db = this.startDragAndDrop(TransferMode.COPY_OR_MOVE);
@@ -94,6 +105,10 @@ public class SongListViewCell extends ListCell<Song> {
 
     public void setUserID(int userID){
         this.userID = userID;
+    }
+
+    public void setPlaylist(ArrayList<Playlist> playlist){
+        this.playlists = playlist;
     }
 
 

@@ -20,16 +20,16 @@ public class LoginHandler{
             e.printStackTrace();
         }
     }
-
+// Check yung title ng user table which is username and password is same with the parameters of verifyCredentials which might cause error
     public String verifyCredentials(String username, String password) {
 
         int verified = 0;
 
         //insert query here for boolean values
         String sql = "SELECT COUNT(username)\n" +
-                "  FROM gulaplay.user\n" +
-                " WHERE UserName = '"+ username +"' AND\n" +
-                "       Password = '"+ password +"'\n" +
+                "  FROM songhub.user\n" +
+                " WHERE username = '"+ username +"' AND\n" +
+                "       password = '"+ password +"'\n" +
                 " LIMIT 0, 1"; // verify query
 
 
@@ -54,7 +54,7 @@ public class LoginHandler{
 
     public void test(){
         System.out.println("test");
-        String sql = "SELECT * FROM gulaplay.user";
+        String sql = "SELECT * FROM songhub.user";
         try {
             resultSet = statement.executeQuery(sql);
             while(resultSet.next()){

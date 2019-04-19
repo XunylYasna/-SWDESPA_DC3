@@ -23,7 +23,8 @@ public class PlaylistBuildTemp {
         Playlist playlist;
 
         try {
-            PreparedStatement prepStatement = myConn.prepareStatement("SELECT * FROM gulaplay.playlist WHERE UserID = ?");
+            PreparedStatement prepStatement = myConn.prepareStatement("SELECT * FROM songhub.playlist WHERE idplaylist= ?"); // Changed userid (gulaplayDB) to idplaylist (songhubDB)
+                                                                                                                                // , might have error with logic now double check lang
             prepStatement.setInt(1,UserID);
             resultSet = prepStatement.executeQuery();
             while(resultSet.next()){

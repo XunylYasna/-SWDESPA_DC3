@@ -28,7 +28,7 @@ public class UserBuildTemp {
 
 
         try {
-            PreparedStatement prepStatement = myConn.prepareStatement("SELECT * FROM gulaplay.user WHERE username LIKE  ?");
+            PreparedStatement prepStatement = myConn.prepareStatement("SELECT * FROM songhub.user WHERE username LIKE  ?");
             prepStatement.setString(1,username);
             resultSet = prepStatement.executeQuery();
             while(resultSet.next()){

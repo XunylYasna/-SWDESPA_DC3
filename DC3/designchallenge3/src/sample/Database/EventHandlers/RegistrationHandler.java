@@ -25,7 +25,7 @@ public class RegistrationHandler{
 
         if(!existEmail && !existUsername) {
 
-            String sql = "INSERT INTO user (firstname, lastname, username, password, email)\n" +
+            String sql = "INSERT INTO user (first_name, last_name, username, password, email)\n" +
                     "values (?, ?, ?, ?, ?)";// insert insert user query here
             try {
                 prepStatement = myConn.prepareStatement(sql);

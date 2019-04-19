@@ -97,6 +97,7 @@ public class SongHubController implements Initializable {
 
         if(username == null){
             userMenu.setText("Guest");
+            user = new User(-1, "Guest", "John", "Sins", "hardcore","js@songhub.com");
         }
 
         else{
@@ -116,7 +117,10 @@ public class SongHubController implements Initializable {
 
         songsLv.setCellFactory(lv -> {
             SongListViewCell cell = new SongListViewCell();
-            cell.setUserID(user.getUserID());
+            if(user != null){
+                cell.setUserID(user.getUserID());
+                cell.setPlaylist(user.getPlaylistList());
+            }
             return cell;
         });
     }
