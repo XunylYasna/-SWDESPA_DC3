@@ -39,6 +39,9 @@ public class AlbumCell extends ListCell<Album> {
                     e.printStackTrace();
                 }
             }
+
+            albumName.setText(album.getAlbumName());
+            albumArtist.setText(album.getArtistID() + "");
         }
     }
 }

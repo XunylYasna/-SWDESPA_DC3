@@ -3,28 +3,27 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Controllers/LogInController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designchallenge3/sample/Controllers/LogInController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Controllers/FacadePackages/MusicPlayerMiddle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designchallenge3/sample/Controllers/FacadePackages/MusicPlayerMiddle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Controllers/LogInController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Controllers/RegistrationController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Controllers/SongHubControllers/SongHubController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designchallenge3/sample/Controllers/SongHubControllers/SongHubController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Model/Album.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designchallenge3/sample/Model/Album.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Views/fxml/SongHubArtist.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designchallenge3/sample/Views/fxml/SongHubArtist.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controllers/FacadePackages/MusicPlayerMiddle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/FacadePackages/MusicPlayerMiddle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controllers/LogInController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/Start/LogInController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controllers/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/Start/RegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controllers/SongHubControllers/SongHubController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/SongHubControllers/SongHubController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controllers/SongListViewCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/Cells/SongListViewCell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controllers/StartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/Start/StartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controllers/addPlaylistController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/EventHandlers/addPlaylistController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controllers/addSongController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/EventHandlers/addSongController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controllers/cellController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/Cells/cellController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Model/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Model/Album.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Model/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Model/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Views/fxml/SongHubArtist.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Views/fxml/Program/SongHubArtist.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Views/fxml/addPlaylist.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Views/fxml/Program/events/addPlaylist.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Views/fxml/addSong.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Views/fxml/Program/events/addSong.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Views/fxml/mainStart.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Views/fxml/Start/mainStart.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Views/fxml/pageLogIn.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Views/fxml/Start/pageLogIn.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Views/fxml/pageRegistration.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Views/fxml/Start/pageRegistration.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Views/fxml/songCell.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Views/fxml/Program/listviewCells/songCell.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Controllers/SongListViewCell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Controllers/StartController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Controllers/addPlaylistController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Controllers/addSongController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Controllers/cellController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Model/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designchallenge3/sample/Model/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Views/fxml/SongHubArtist.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Views/fxml/addPlaylist.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Views/fxml/addSong.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Views/fxml/mainStart.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Views/fxml/pageLogIn.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Views/fxml/pageRegistration.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designchallenge3/sample/Views/fxml/songCell.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controllers/Cells/AlbumCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/Cells/AlbumCell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controllers/Start/LogInController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/Start/LogInController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controllers/Start/StartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/Start/StartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Views/fxml/Program/listviewCells/songCell.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Views/fxml/Program/listviewCells/songCell.fxml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,28 +79,28 @@
     <session id="300185346">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.20" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="5" />
-          <entry key="fxml" value="15" />
-          <entry key="java" value="74" />
+          <entry key="fxml" value="18" />
+          <entry key="java" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="5" />
-          <entry key="JAVA" value="74" />
-          <entry key="XML" value="15" />
+          <entry key="JAVA" value="79" />
+          <entry key="XML" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -109,13 +108,13 @@
           <entry key="css" value="574" />
           <entry key="dummy" value="24" />
           <entry key="fxml" value="23" />
-          <entry key="java" value="2363" />
+          <entry key="java" value="2475" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="574" />
-          <entry key="JAVA" value="2363" />
+          <entry key="JAVA" value="2475" />
           <entry key="PLAIN_TEXT" value="24" />
           <entry key="XML" value="23" />
         </counts>
@@ -127,50 +126,77 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sample/Controllers/SongHubControllers/SongHubController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="129" column="23" lean-forward="true" selection-start-line="129" selection-start-column="23" selection-end-line="129" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Start/LogInController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Start/RegistrationController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Start/StartController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="221">
+              <caret line="62" column="17" lean-forward="true" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Cells/cellController.java">
+        <entry file="file://$PROJECT_DIR$/src/sample/Model/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Start/LogInController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="60" column="119" selection-start-line="60" selection-start-column="119" selection-end-line="60" selection-end-column="119" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Model/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="97" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Views/fxml/Start/mainStart.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="208" selection-start-line="9" selection-start-column="208" selection-end-line="9" selection-end-column="215" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Views/fxml/Start/pageRegistration.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Views/fxml/Start/pageLogIn.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="265" selection-start-line="8" selection-start-column="265" selection-end-line="8" selection-end-column="265" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Cells/SongListViewCell.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
         </entry>
@@ -185,42 +211,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Cells/SongListViewCell.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="92" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Cells/AlbumCell.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+            <state relative-caret-position="731">
+              <caret line="43" column="55" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Views/fxml/Program/listviewCells/albumCell.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="209" lean-forward="true" selection-start-line="7" selection-start-column="209" selection-end-line="7" selection-end-column="209" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Views/fxml/Program/listviewCells/songCell.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="372" selection-start-line="8" selection-start-column="362" selection-end-line="8" selection-end-column="372" />
             </state>
           </provider>
         </entry>
@@ -301,6 +298,8 @@
         <option value="$PROJECT_DIR$/src/sample/Controllers/SongHubControllers/SongHubController.java" />
         <option value="$PROJECT_DIR$/src/sample/Controllers/Cells/SongListViewCell.java" />
         <option value="$PROJECT_DIR$/src/sample/Controllers/Cells/AlbumCell.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controllers/Start/StartController.java" />
+        <option value="$PROJECT_DIR$/src/sample/Controllers/Start/LogInController.java" />
       </list>
     </option>
   </component>
@@ -328,8 +327,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -370,6 +368,14 @@
               <item name="sample" type="462c0819:PsiDirectoryNode" />
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
               <item name="SongHubControllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designchallenge3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designchallenge3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Start" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designchallenge3" type="b2602c69:ProjectViewProjectNode" />
@@ -474,7 +480,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -487,7 +494,7 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555612109531" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555666614544" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -629,18 +636,19 @@
       <workItem from="1555331700187" duration="4370000" />
       <workItem from="1555429498749" duration="12544000" />
       <workItem from="1555569826406" duration="7387000" />
-      <workItem from="1555661649686" duration="1846000" />
+      <workItem from="1555661649686" duration="3522000" />
+      <workItem from="1555666225180" duration="269000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36569000" />
+    <option name="totallyTimeSpent" value="38514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.22483222" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.22818792" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -649,7 +657,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32867134" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32867134" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -735,14 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Views/fxml/Start/pageLogIn.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="265" selection-start-line="8" selection-start-column="265" selection-end-line="8" selection-end-column="265" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Views/fxml/musicUser.fxml" />
     <entry file="file://$PROJECT_DIR$/src/sample/Controllers/musicUserController.java">
       <provider selected="true" editor-type-id="text-editor" />
@@ -777,42 +777,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Model/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Views/fxml/Start/pageRegistration.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Views/fxml/Start/mainStart.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="208" selection-start-line="9" selection-start-column="208" selection-end-line="9" selection-end-column="215" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Views/css/start.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Database/BuilderPattern/ConcreteBuilders.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/Database/BuilderPattern/UserBuilder.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/Database/BuilderPattern/UserBuilder/userDirector.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Database/DatabaseConnection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -884,6 +854,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -938,13 +911,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Start/LogInController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Start/RegistrationController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -952,24 +918,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Start/StartController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Cells/cellController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Cells/GenreCell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -984,35 +936,94 @@
     <entry file="file://$PROJECT_DIR$/src/sample/Views/fxml/Program/listviewCells/songCell.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="372" selection-start-line="8" selection-start-column="362" selection-end-line="8" selection-end-column="372" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Cells/SongListViewCell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="92" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Cells/AlbumCell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" column="372" selection-start-line="11" selection-start-column="372" selection-end-line="11" selection-end-column="372" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controllers/SongHubControllers/SongHubController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="129" column="23" lean-forward="true" selection-start-line="129" selection-start-column="23" selection-end-line="129" selection-end-column="23" />
+        <state relative-caret-position="2159">
+          <caret line="129" column="23" selection-start-line="129" selection-start-column="23" selection-end-line="129" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Model/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Views/fxml/Start/mainStart.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="208" selection-start-line="9" selection-start-column="208" selection-end-line="9" selection-end-column="215" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Views/fxml/Start/pageRegistration.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Views/fxml/Start/pageLogIn.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="265" selection-start-line="8" selection-start-column="265" selection-end-line="8" selection-end-column="265" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Cells/SongListViewCell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Cells/GenreCell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Cells/AlbumCell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="55" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Start/StartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="62" column="17" lean-forward="true" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controllers/Start/LogInController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="60" column="119" selection-start-line="60" selection-start-column="119" selection-end-line="60" selection-end-column="119" />
         </state>
       </provider>
     </entry>

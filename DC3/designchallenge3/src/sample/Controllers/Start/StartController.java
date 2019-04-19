@@ -32,7 +32,7 @@ public class StartController implements Initializable {
         t.play();
         t.setOnFinished((e) -> {
             try {
-                fxml = FXMLLoader.load(getClass().getResource("../Views/fxml/Start/pageLogIn.fxml"));
+                fxml = FXMLLoader.load(getClass().getClassLoader().getResource("sample/Views/fxml/Start/pageLogIn.fxml"));
                 vbox.getChildren().removeAll();
                 vbox.getChildren().setAll(fxml);
             } catch (IOException ex) {
@@ -47,7 +47,7 @@ public class StartController implements Initializable {
         t.play();
         t.setOnFinished((e) -> {
             try {
-                fxml = FXMLLoader.load(getClass().getResource("../Views/fxml/Start/pageLogIn.fxml"));
+                fxml = FXMLLoader.load(getClass().getClassLoader().getResource("sample/Views/fxml/Start/pageLogIn.fxml"));
                 vbox.getChildren().removeAll();
                 vbox.getChildren().setAll(fxml);
             } catch (IOException ex) {
@@ -63,7 +63,7 @@ public class StartController implements Initializable {
         t.play();
         t.setOnFinished((e) -> {
             try {
-                fxml = FXMLLoader.load(getClass().getResource("../Views/fxml/Start/pageRegistration.fxml"));
+                fxml = FXMLLoader.load(getClass().getClassLoader().getResource("sample/Views/fxml/Start/pageRegistration.fxml"));
                 vbox.getChildren().removeAll();
                 vbox.getChildren().setAll(fxml);
             } catch (IOException ex) {
