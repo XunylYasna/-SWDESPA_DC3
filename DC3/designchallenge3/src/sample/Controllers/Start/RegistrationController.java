@@ -1,4 +1,4 @@
-package sample.Controllers;
+package sample.Controllers.Start;
 
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXPasswordField;

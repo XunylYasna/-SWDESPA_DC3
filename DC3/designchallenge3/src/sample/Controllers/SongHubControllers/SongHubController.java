@@ -10,9 +10,11 @@ import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.layout.AnchorPane;
-import sample.Controllers.SongListViewCell;
+import sample.Controllers.Cells.SongListViewCell;
+import sample.Database.BuildTemp.PlaylistBuildTemp;
 import sample.Database.BuildTemp.SongListBuildTemp;
 import sample.Database.BuildTemp.UserBuildTemp;
+import sample.Model.Album;
 import sample.Model.Playlist;
 import sample.Model.Song;
 import sample.Model.User;
@@ -52,7 +54,7 @@ public class SongHubController implements Initializable {
     public ListView albumsLv;
     public ListView albumsongLv;
     private ObservableList albumOL = FXCollections.observableArrayList();
-    ArrayList<String> arrayListalbums;
+    ArrayList<Album> arrayListalbums;
 
 //    Artists Tab
     public ListView artistLv;
@@ -65,11 +67,13 @@ public class SongHubController implements Initializable {
     ArrayList<String> arrayListgenres;
 
 //    Playlists Tab
-
+    public MenuButton playlistMenu;
     private ObservableList playlistOL = FXCollections.observableArrayList();
+    ArrayList<Song> arrayListsongsofplaylists;
     ArrayList<Playlist> arrayListplaylists;
+    public ListView playlistsongLv;
 
-//    Sidebar
+    //    Sidebar
     public JFXListView notifLv;
 
 
@@ -79,6 +83,7 @@ public class SongHubController implements Initializable {
 //    Database Access
     SongListBuildTemp songListBuildTemp = new SongListBuildTemp(); // gets songs from the db
     UserBuildTemp userBuildTemp = new UserBuildTemp();
+    PlaylistBuildTemp playlistBuildTemp = new PlaylistBuildTemp();
 
 
 
@@ -89,16 +94,18 @@ public class SongHubController implements Initializable {
     }
 
     public void setUser(String username){
+
         if(username == null){
             userMenu.setText("Guest");
         }
 
         else{
             userMenu.setText(username);
-            UserBuildTemp userBuildTemp = new UserBuildTemp();
             user = userBuildTemp.getUser(username);
             System.out.println(user.getUserID());
+            initPlaylist();
         }
+
     }
 
     public void initSongList(){
@@ -114,8 +121,33 @@ public class SongHubController implements Initializable {
         });
     }
 
-    public void initPlaylist(){
+    public void initSongList(ArrayList<Song> arrayListsongs, ObservableList songOL, ListView songsLv){
+        songOL.clear();
+        songOL.setAll(arrayListsongs);
+        songsLv.setItems(songOL);
 
+        songsLv.setCellFactory(lv -> {
+            SongListViewCell cell = new SongListViewCell();
+            cell.setUserID(user.getUserID());
+            return cell;
+        });
+    }
+
+    public void initPlaylist(){
+        arrayListplaylists = playlistBuildTemp.getPlaylists(user.getUserID());
+
+        for(int i = 0; i < arrayListplaylists.size(); i++){
+            Playlist playlist = arrayListplaylists.get(i);
+            MenuItem menuItem = new MenuItem(arrayListplaylists.get(i).getPlaylistName());
+
+            menuItem.setOnAction((e -> {
+                playlistMenu.setText(playlist.getPlaylistName());
+                arrayListsongsofplaylists = songListBuildTemp.getSongsofPlaylist(playlist.getPlaylistID());
+                initSongList(arrayListsongsofplaylists, playlistOL, playlistsongLv);
+            }));
+
+            playlistMenu.getItems().add(menuItem);
+        }
     }
 
     public void initArtist(){

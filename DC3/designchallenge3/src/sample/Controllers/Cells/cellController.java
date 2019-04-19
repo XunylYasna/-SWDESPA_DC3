@@ -1,4 +1,4 @@
-package sample.Controllers;
+package sample.Controllers.Cells;
 
 import javafx.fxml.FXML;
 

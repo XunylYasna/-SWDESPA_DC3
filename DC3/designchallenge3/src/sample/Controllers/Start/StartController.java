@@ -1,4 +1,4 @@
-package sample.Controllers;
+package sample.Controllers.Start;
 
 import javafx.animation.TranslateTransition;
 import javafx.event.ActionEvent;
@@ -32,7 +32,7 @@ public class StartController implements Initializable {
         t.play();
         t.setOnFinished((e) -> {
             try {
-                fxml = FXMLLoader.load(getClass().getResource("../Views/fxml/pageLogIn.fxml"));
+                fxml = FXMLLoader.load(getClass().getResource("../Views/fxml/Start/pageLogIn.fxml"));
                 vbox.getChildren().removeAll();
                 vbox.getChildren().setAll(fxml);
             } catch (IOException ex) {
@@ -47,7 +47,7 @@ public class StartController implements Initializable {
         t.play();
         t.setOnFinished((e) -> {
             try {
-                fxml = FXMLLoader.load(getClass().getResource("../Views/fxml/pageLogIn.fxml"));
+                fxml = FXMLLoader.load(getClass().getResource("../Views/fxml/Start/pageLogIn.fxml"));
                 vbox.getChildren().removeAll();
                 vbox.getChildren().setAll(fxml);
             } catch (IOException ex) {
@@ -63,7 +63,7 @@ public class StartController implements Initializable {
         t.play();
         t.setOnFinished((e) -> {
             try {
-                fxml = FXMLLoader.load(getClass().getResource("../Views/fxml/pageRegistration.fxml"));
+                fxml = FXMLLoader.load(getClass().getResource("../Views/fxml/Start/pageRegistration.fxml"));
                 vbox.getChildren().removeAll();
                 vbox.getChildren().setAll(fxml);
             } catch (IOException ex) {
@@ -74,7 +74,7 @@ public class StartController implements Initializable {
     }
 
     public void loginGuest(ActionEvent actionEvent) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("../Views/fxml/SongHubArtist.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("../Views/fxml/Program/SongHubArtist.fxml"));
         Scene scene = new Scene(root);
 
 //        get stage

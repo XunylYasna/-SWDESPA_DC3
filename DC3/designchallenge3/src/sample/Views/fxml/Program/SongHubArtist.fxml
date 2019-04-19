@@ -17,12 +17,12 @@
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="780.0" prefWidth="1230.0" styleClass="mainAnchor" stylesheets="@../css/songhub.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.SongHubControllers.SongHubController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="780.0" prefWidth="1230.0" styleClass="mainAnchor" stylesheets="@../../css/songhub.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.SongHubControllers.SongHubController">
    <children>
       <HBox alignment="CENTER_LEFT" layoutY="20.0" prefHeight="70.0" prefWidth="1230.0" styleClass="topPane">
          <children>
             <Pane prefHeight="70.0" prefWidth="70.0" />
-            <Label prefHeight="18.0" prefWidth="80.0" stylesheets="@../css/songhub.css" text="SongHub" />
+            <Label prefHeight="18.0" prefWidth="80.0" stylesheets="@../../css/songhub.css" text="SongHub" />
             <Pane prefHeight="70.0" prefWidth="127.0" />
             <JFXTextField fx:id="searchTf" onAction="#search" prefHeight="26.0" prefWidth="369.0" promptText="Search 7,812,716 music..." />
             <JFXButton fx:id="searchBtn" onAction="#search" styleClass="orangeBtn" text="Search" />
@@ -110,7 +110,7 @@
                            <content>
                               <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="990.0">
                                  <children>
-                                    <ListView layoutY="115.0" prefHeight="515.0" prefWidth="990.0" />
+                                    <ListView fx:id="playlistsongLv" layoutY="115.0" prefHeight="515.0" prefWidth="990.0" />
                                     <MenuButton fx:id="playlistMenu" layoutX="28.0" layoutY="29.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="215.0" text="Playlist" />
                                     <JFXButton layoutX="848.0" layoutY="29.0" text="Create new playlist" />
                                  </children>

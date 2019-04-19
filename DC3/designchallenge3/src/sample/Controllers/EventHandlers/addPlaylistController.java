@@ -1,4 +1,4 @@
-package sample.Controllers;
+package sample.Controllers.EventHandlers;
 
 
 import com.jfoenix.controls.JFXTextField;

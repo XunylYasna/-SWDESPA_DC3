@@ -1,4 +1,4 @@
-package sample.Controllers;
+package sample.Controllers.Cells;
 
 
 import javafx.fxml.FXML;
@@ -47,7 +47,7 @@ public class SongListViewCell extends ListCell<Song> {
 
         } else {
             if (mLLoader == null) {
-                mLLoader = new FXMLLoader(getClass().getResource("../Views/fxml/songCell.fxml"));
+                mLLoader = new FXMLLoader(getClass().getResource("../Views/fxml/Program/listviewCells/songCell.fxml"));
                 mLLoader.setController(this);
                 try {
                     mLLoader.load();
