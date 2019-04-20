@@ -17,6 +17,7 @@ import javafx.scene.layout.AnchorPane;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import sample.Controllers.Cells.SongListViewCell;
+import sample.Controllers.EventHandlers.uploadController;
 import sample.Database.BuildTemp.PlaylistBuildTemp;
 import sample.Database.BuildTemp.SongListBuildTemp;
 import sample.Database.BuildTemp.UserBuildTemp;
@@ -132,6 +133,7 @@ public class SongHubController implements Initializable {
         songsLv.setCellFactory(lv -> {
             SongListViewCell cell = new SongListViewCell();
             if(user != null){
+
                 cell.setUserID(user.getUserID());
                 cell.setPlaylist(user.getPlaylistList());
             }
@@ -195,6 +197,10 @@ public class SongHubController implements Initializable {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getClassLoader().getResource("sample/Views/fxml/Program/events/upload/upload.fxml"));
         try {
             root = fxmlLoader.load();
+
+            uploadController uploadController = (uploadController) fxmlLoader.getController();
+            uploadController.setArtist(user);
+
             Scene scene = new Scene(root);
             stage.initModality(Modality.APPLICATION_MODAL);
             stage.setScene(scene);

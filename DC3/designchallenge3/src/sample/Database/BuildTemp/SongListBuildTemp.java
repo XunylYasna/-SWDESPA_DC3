@@ -35,8 +35,9 @@ public class SongListBuildTemp {
                 resultSet = statement.executeQuery(sql);
             }
             while(resultSet.next()){
-                songID = resultSet.getInt("SongID");
+                songID = resultSet.getInt("idsong");
                 song = getSong(songID);
+                System.out.println("sa songlist build temp " + song.getSongTitle());
                 songList.add(song);
             }
         } catch (SQLException e) {
@@ -137,10 +138,10 @@ public class SongListBuildTemp {
             getSongResult = prepStatement.executeQuery();
 
             while(getSongResult.next()){
-                songTitle = getSongResult.getString("MusicTitle");
-                artist = getSongResult.getString("Artist");
-                album = getSongResult.getString("Genre");
-                genre = getSongResult.getString("Album");
+                songTitle = getSongResult.getString("title");
+                artist = getSongResult.getString("artist");
+                album = getSongResult.getString("album");
+                genre = getSongResult.getString("genre");
 
                 song = new Song(SongID, songTitle,artist, album, genre);
             }

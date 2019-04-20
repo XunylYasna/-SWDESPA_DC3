@@ -10,6 +10,7 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.util.Duration;
+import sample.Model.User;
 
 import java.io.IOException;
 
@@ -19,6 +20,8 @@ public class uploadController {
     public VBox Parentpane;
 
     Parent root;
+
+    User artist;
 
     public void uploadSong(ActionEvent event) {
 
@@ -32,7 +35,10 @@ public class uploadController {
             try {
 
                 FXMLLoader fxmlLoader = new FXMLLoader(getClass().getClassLoader().getResource("sample/Views/fxml/Program/events/upload/addSong.fxml"));
-                root = fxmlLoader.load();;
+                root = fxmlLoader.load();
+                addSongController addSongController = (addSongController) fxmlLoader.getController();
+                addSongController.setArtist(artist);
+
                 Parentpane.getChildren().remove(parentAnchor);
                 Parentpane.getChildren().add(root);
                 FadeTransition fadeInTransition = new FadeTransition(Duration.millis(200), Parentpane);
@@ -57,7 +63,11 @@ public class uploadController {
             try {
 
                 FXMLLoader fxmlLoader = new FXMLLoader(getClass().getClassLoader().getResource("sample/Views/fxml/Program/events/upload/addAlbum.fxml"));
-                root = fxmlLoader.load();;
+                root = fxmlLoader.load();
+
+                addAlbumController addAlbumController = (addAlbumController) fxmlLoader.getController();
+                addAlbumController.setArtist(artist);
+
                 Parentpane.getChildren().remove(parentAnchor);
                 Parentpane.getChildren().add(root);
                 FadeTransition fadeInTransition = new FadeTransition(Duration.millis(200), Parentpane);
@@ -68,5 +78,9 @@ public class uploadController {
                 ex.printStackTrace();
             }
         });
+    }
+
+    public void setArtist(User artist){
+        this.artist = artist;
     }
 }

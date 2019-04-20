@@ -45,11 +45,14 @@ public class SongListViewCell extends ListCell<Song> {
     protected void updateItem(Song song, boolean empty) {
         super.updateItem(song, empty);
 
+        System.out.println("anyayare");
         if (empty || song == null) {
+            System.out.println("null yung song hayop");
             setText(null);
             setGraphic(null);
 
         } else {
+            System.out.println("update item to sa songcell1 " + song.getSongTitle());
             if (mLLoader == null) {
                 mLLoader = new FXMLLoader(getClass().getClassLoader().getResource("sample/Views/fxml/Program/listviewCells/songCell.fxml"));
                 mLLoader.setController(this);

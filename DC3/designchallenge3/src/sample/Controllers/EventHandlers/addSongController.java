@@ -11,6 +11,7 @@ import javafx.scene.layout.*;
 import javafx.stage.FileChooser;
 import sample.Database.EventHandlers.SongAddHandler;
 import sample.Model.Song;
+import sample.Model.User;
 
 import java.io.File;
 
@@ -30,10 +31,6 @@ public class addSongController {
     @FXML
     private JFXTextField titleTf;
     @FXML
-    private JFXTextField artistTf;
-    @FXML
-    private JFXTextField albumTf;
-    @FXML
     private JFXTextField genreTf;
 
     @FXML
@@ -51,6 +48,8 @@ public class addSongController {
 
     Song songAdded = null;
 
+    User artist;
+
     @FXML
     void chooseSongCover(ActionEvent event){
         coverFile = fileChooser.showOpenDialog(null);
@@ -65,15 +64,14 @@ public class addSongController {
     @FXML
     void confirm(ActionEvent event){
         String songTitle = titleTf.getText();
-        String artist = artistTf.getText();
+        String artist = this.artist.getUsername();
         String genre = genreTf.getText();
-        String album = albumTf.getText();
 
 //        if(coverFile == null){
 //            coverFile = new File("defaultCover.png");
 //        }
 
-        songAdded = songAddHandler.addSong(songTitle, artist, album, genre, coverFile, songFile);
+        songAdded = songAddHandler.addSong(songTitle, artist, genre, coverFile, songFile);
         if(songAdded != null){
             statusLbl.setText("Song added. You may now close the window");
         }
@@ -88,5 +86,9 @@ public class addSongController {
 
     public Song getSongAdded(){
         return songAdded;
+    }
+
+    public void setArtist(User artist){
+        this.artist = artist;
     }
 }
