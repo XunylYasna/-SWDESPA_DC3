@@ -22,7 +22,7 @@ public class UserBuildTemp {
         String lastName;
         String password;
         String email;
-        ArrayList<Playlist> playlistList;
+        String type;
 
         User user = null;
 
@@ -33,11 +33,13 @@ public class UserBuildTemp {
             resultSet = prepStatement.executeQuery();
             while(resultSet.next()){
                 userID = resultSet.getInt("iduser");
-                firstName = resultSet.getString("firstname");
-                lastName = resultSet.getString("lastname");
+                firstName = resultSet.getString("first_name");
+                lastName = resultSet.getString("last_name");
                 password = resultSet.getString("password");
                 email = resultSet.getString("email");
-                user = new User(userID, username,firstName, lastName, password, email);
+                type = resultSet.getString("user_type");
+
+                user = new User(userID, username,firstName, lastName, password, email, type);
             }
         } catch (SQLException e) {
             e.printStackTrace();

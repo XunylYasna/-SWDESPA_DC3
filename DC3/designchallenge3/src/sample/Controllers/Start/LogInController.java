@@ -7,10 +7,12 @@ import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.geometry.Rectangle2D;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Labeled;
+import javafx.stage.Screen;
 import javafx.stage.Stage;
 import sample.Controllers.SongHubControllers.SongHubController;
 import sample.Database.EventHandlers.LoginHandler;
@@ -62,12 +64,18 @@ public class LogInController{
             Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
 
             Parent root = fxmlLoader.load();
+
             SongHubController songHubController = (SongHubController) fxmlLoader.getController();
             songHubController.setUser(username);
 
             Scene scene = new Scene(root);
             window.setScene(scene);
             window.show();
+
+            Rectangle2D screenBounds = Screen.getPrimary().getVisualBounds();
+            window.setX((screenBounds.getWidth() - window.getWidth()) / 2);
+            window.setY((screenBounds.getHeight() - window.getHeight()) / 2);
+
         }
 
         else{

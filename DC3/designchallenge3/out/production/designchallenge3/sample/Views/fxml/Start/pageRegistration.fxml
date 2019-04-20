@@ -20,9 +20,9 @@
       <JFXTextField fx:id="lastnameTf" layoutX="201.0" layoutY="179.0" prefHeight="26.0" prefWidth="160.0" promptText="Last Name" styleClass="tf" stylesheets="@../../css/start.css" />
       <Label fx:id="messageLbl" layoutX="32.0" layoutY="368.0" prefHeight="18.0" prefWidth="274.0" />
       <Label layoutX="35.0" layoutY="347.0" text="Register as:" />
-      <MenuButton fx:id="typeMenu" layoutX="120.0" layoutY="344.0" mnemonicParsing="false" text="User">
+      <MenuButton fx:id="typeMenu" layoutX="120.0" layoutY="344.0" mnemonicParsing="false" text="Listener">
         <items>
-          <MenuItem mnemonicParsing="false" onAction="#setUsertype" text="User" />
+          <MenuItem mnemonicParsing="false" onAction="#setUsertype" text="Listener" />
           <MenuItem mnemonicParsing="false" onAction="#setArtisttype" text="Artist" />
         </items>
       </MenuButton>

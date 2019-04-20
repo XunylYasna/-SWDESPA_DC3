@@ -37,6 +37,7 @@ public class SongListViewCell extends ListCell<Song> {
 
     FXMLLoader mLLoader;
     private int userID = -1;
+
     private ArrayList<Playlist> playlists = new ArrayList<>();
 
 

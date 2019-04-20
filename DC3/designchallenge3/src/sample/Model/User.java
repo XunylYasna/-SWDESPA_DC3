@@ -11,16 +11,18 @@ public class User {
     private String lastname;
     private String password;
     private String email;
+    private String type;
 
     private ArrayList<Playlist> playlistList;
 
-    public User(int userID, String username, String firstname, String lastname, String password, String email) {
+    public User(int userID, String username, String firstname, String lastname, String password, String email, String type) {
         this.userID = userID;
         this.username = username;
         this.firstname = firstname;
         this.lastname = lastname;
         this.password = password;
         this.email = email;
+        this.type = type;
         PlaylistBuildTemp playlistBuildTemp = new PlaylistBuildTemp();
         playlistList = playlistBuildTemp.getPlaylists(userID);
     }
@@ -55,5 +57,9 @@ public class User {
 
     public ArrayList<Playlist> getPlaylistList() {
         return playlistList;
+    }
+
+    public String getType() {
+        return type;
     }
 }

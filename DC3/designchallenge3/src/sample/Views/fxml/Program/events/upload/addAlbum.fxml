@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXListView?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="409.0" prefWidth="427.0" stylesheets="" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.EventHandlers.addAlbumController">
+   <children>
+      <Label layoutX="31.0" layoutY="41.0" styleClass="main-lbl" text="Add Album" />
+      <JFXButton fx:id="uploadFBtn" layoutX="274.0" layoutY="170.0" onAction="#uploadSongFile" styleClass="sumbit-btn" text="Add Song" />
+      <Label fx:id="message" layoutX="48.0" layoutY="348.0" prefHeight="18.0" prefWidth="274.0" />
+      <JFXTextField fx:id="albumTf" layoutX="31.0" layoutY="78.0" prefHeight="17.0" prefWidth="218.0" promptText="Album Name" styleClass="tf" stylesheets="" />
+      <JFXButton fx:id="songCBtn" layoutX="274.0" layoutY="33.0" onAction="#chooseSongCover" prefHeight="115.0" prefWidth="115.0" text="Upload Song Cover" />
+      <JFXButton fx:id="confirmBtn" layoutX="332.0" layoutY="331.0" onAction="#confirm" styleClass="sumbit-btn" text="Confirm" />
+      <JFXListView layoutX="31.0" layoutY="150.0" prefHeight="210.0" prefWidth="218.0" />
+      <Label layoutX="31.0" layoutY="124.0" styleClass="main-lbl" text="Songs" />
+   </children>
+</AnchorPane>

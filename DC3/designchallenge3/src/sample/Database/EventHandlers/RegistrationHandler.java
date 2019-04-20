@@ -18,15 +18,15 @@ public class RegistrationHandler{
             e.printStackTrace();
         }
     }
-    public String registration(String firstname, String lastname, String username, String email, String password) {
+    public String registration(String firstname, String lastname, String username, String email, String password, String type) {
 
         boolean existUsername = checkExist("username",username);
         boolean existEmail = checkExist("email",email);
 
         if(!existEmail && !existUsername) {
 
-            String sql = "INSERT INTO user (first_name, last_name, username, password, email)\n" +
-                    "values (?, ?, ?, ?, ?)";// insert insert user query here
+            String sql = "INSERT INTO user (first_name, last_name, username, password, email, user_type)\n" +
+                    "values (?, ?, ?, ?, ?,?)";// insert insert user query here
             try {
                 prepStatement = myConn.prepareStatement(sql);
                 prepStatement.setString(1, firstname);
@@ -34,6 +34,7 @@ public class RegistrationHandler{
                 prepStatement.setString(3, username);
                 prepStatement.setString(4, password);
                 prepStatement.setString(5, email);
+                prepStatement.setString(6, type);
                 prepStatement.execute();
             } catch (SQLException e) {
                 e.printStackTrace();

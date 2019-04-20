@@ -5,10 +5,12 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.geometry.Rectangle2D;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.layout.VBox;
+import javafx.stage.Screen;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 
@@ -81,6 +83,10 @@ public class StartController implements Initializable {
         Stage window = (Stage)((Node)actionEvent.getSource()).getScene().getWindow();
         window.setScene(scene);
         window.show();
+
+        Rectangle2D screenBounds = Screen.getPrimary().getVisualBounds();
+        window.setX((screenBounds.getWidth() - window.getWidth()) / 2);
+        window.setY((screenBounds.getHeight() - window.getHeight()) / 2);
     }
 
 

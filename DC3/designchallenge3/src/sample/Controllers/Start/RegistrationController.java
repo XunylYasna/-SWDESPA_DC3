@@ -34,12 +34,12 @@ public class RegistrationController {
     @FXML
     private Labeled messageLbl;
 
-    private String registrationtype = "User";
+    private String registrationtype = "listener";
     
     @FXML
     void register(ActionEvent event){
-        RegistrationHandler regis = new RegistrationHandler();
-        String message = regis.registration(firstnameTf.getText(), lastnameTf.getText(), usernameTf.getText(), emailTf.getText(), passwordPf.getText());
+        RegistrationHandler register = new RegistrationHandler();
+        String message = register.registration(firstnameTf.getText(), lastnameTf.getText(), usernameTf.getText(), emailTf.getText(), passwordPf.getText(), registrationtype);
 
         messageLbl.setText(message);
     }
@@ -52,12 +52,12 @@ public class RegistrationController {
 
 
     public void setUsertype(ActionEvent event) {
-        typeMenu.setText("User");
-        registrationtype = "User";
+        typeMenu.setText("Listener");
+        registrationtype = "listener";
     }
 
     public void setArtisttype(ActionEvent event) {
         typeMenu.setText("Artist");
-        registrationtype = "Artist";
+        registrationtype = "artist";
     }
 }

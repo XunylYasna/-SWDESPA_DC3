@@ -4,12 +4,18 @@ import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXListView;
 import com.jfoenix.controls.JFXTabPane;
 import com.jfoenix.controls.JFXTextField;
+import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.layout.AnchorPane;
+import javafx.stage.Modality;
+import javafx.stage.Stage;
 import sample.Controllers.Cells.SongListViewCell;
 import sample.Database.BuildTemp.PlaylistBuildTemp;
 import sample.Database.BuildTemp.SongListBuildTemp;
@@ -19,6 +25,7 @@ import sample.Model.Playlist;
 import sample.Model.Song;
 import sample.Model.User;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.ResourceBundle;
@@ -97,7 +104,7 @@ public class SongHubController implements Initializable {
 
         if(username == null){
             userMenu.setText("Guest");
-            user = new User(-1, "Guest", "John", "Sins", "hardcore","js@songhub.com");
+            user = new User(-1, "Guest", "John", "Sins", "hardcore","js@songhub.com", "listener");
         }
 
         else{
@@ -105,6 +112,13 @@ public class SongHubController implements Initializable {
             user = userBuildTemp.getUser(username);
             System.out.println(user.getUserID());
             initPlaylist();
+
+            System.out.println(user.getType());
+            if(user.getType().equals("artist")){
+                System.out.println("bakit ganito");
+                uploadBtn.setVisible(true);
+                uploadBtn.setDisable(false);
+            }
         }
 
     }
@@ -175,6 +189,19 @@ public class SongHubController implements Initializable {
     }
 
     public void upload(ActionEvent event) {
+        Stage stage = new Stage();
+        Parent root;
+
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getClassLoader().getResource("sample/Views/fxml/Program/events/upload/upload.fxml"));
+        try {
+            root = fxmlLoader.load();
+            Scene scene = new Scene(root);
+            stage.initModality(Modality.APPLICATION_MODAL);
+            stage.setScene(scene);
+            stage.showAndWait();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
 
@@ -196,5 +223,11 @@ public class SongHubController implements Initializable {
 
     public void refreshFollowing(){
 
+    }
+
+
+    public void close(ActionEvent event) {
+        Platform.exit();
+        System.exit(0);
     }
 }

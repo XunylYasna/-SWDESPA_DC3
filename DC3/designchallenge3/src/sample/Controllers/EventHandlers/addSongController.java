@@ -4,6 +4,7 @@ import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextField;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Label;
 import javafx.scene.control.Labeled;
 import javafx.scene.image.Image;
 import javafx.scene.layout.*;
@@ -14,6 +15,8 @@ import sample.Model.Song;
 import java.io.File;
 
 public class addSongController {
+    @FXML
+    public Label message;
 
     @FXML
     private JFXButton songCBtn;
@@ -82,10 +85,6 @@ public class addSongController {
         songFileLbl.setText(songFile.getName());
     }
 
-    @FXML
-    void cancel(ActionEvent event) {
-        System.out.println("forgot Pass");
-    }
 
     public Song getSongAdded(){
         return songAdded;

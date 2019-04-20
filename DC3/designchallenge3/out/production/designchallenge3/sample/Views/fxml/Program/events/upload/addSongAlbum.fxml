@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="309.0" prefWidth="427.0" stylesheets="@../css/start.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.addSongController">
+   <children>
+      <Label layoutX="42.0" layoutY="42.0" styleClass="main-lbl" text="Add Song" />
+      <JFXTextField fx:id="titleTf" layoutX="42.0" layoutY="95.0" prefHeight="26.0" prefWidth="330.0" promptText="Song Title" styleClass="tf" stylesheets="@../css/start.css" />
+      <JFXButton fx:id="uploadFBtn" layoutX="39.0" layoutY="187.0" onAction="#uploadSongFile" styleClass="sumbit-btn" text="Add Song File" />
+      <Label fx:id="message" layoutX="48.0" layoutY="348.0" prefHeight="18.0" prefWidth="274.0" />
+      <JFXTextField fx:id="genreTf" layoutX="42.0" layoutY="138.0" prefHeight="26.0" prefWidth="330.0" promptText="Genre" styleClass="tf" stylesheets="@../css/start.css" />
+      <JFXButton fx:id="confirmBtn" layoutX="306.0" layoutY="187.0" onAction="#confirm" styleClass="sumbit-btn" text="Add to Album" />
+      <Label fx:id="statusLbl" layoutX="39.0" layoutY="242.0" prefHeight="18.0" prefWidth="330.0" textFill="#04ff00" />
+   </children>
+</AnchorPane>

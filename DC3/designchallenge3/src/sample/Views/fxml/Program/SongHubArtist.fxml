@@ -27,7 +27,7 @@
             <JFXTextField fx:id="searchTf" onAction="#search" prefHeight="26.0" prefWidth="369.0" promptText="Search 7,812,716 music..." />
             <JFXButton fx:id="searchBtn" onAction="#search" styleClass="orangeBtn" text="Search" />
             <Pane prefHeight="70.0" prefWidth="267.0" />
-            <JFXButton fx:id="uploadBtn" onAction="#upload" prefHeight="32.0" prefWidth="79.0" text="Upload" />
+            <JFXButton fx:id="uploadBtn" disable="true" onAction="#upload" prefHeight="32.0" prefWidth="79.0" text="Upload" visible="false" />
             <Pane prefHeight="70.0" prefWidth="42.0" />
             <MenuButton fx:id="userMenu" mnemonicParsing="false" prefHeight="42.0" prefWidth="159.0" styleClass="usermenu" text="Guest" textFill="WHITE">
                <items>
@@ -186,10 +186,10 @@
             <JFXListView fx:id="notifLv" layoutY="46.0" prefHeight="629.0" prefWidth="239.0" />
          </children>
       </AnchorPane>
-      <HBox layoutY="-2.0" prefHeight="15.0" prefWidth="1230.0" style="-fx-background-color: black;">
+      <HBox layoutY="-2.0" prefHeight="32.0" prefWidth="1230.0" style="-fx-background-color: black;">
          <children>
             <Pane prefHeight="15.0" prefWidth="1158.0" />
-            <JFXButton minHeight="15.0" prefHeight="15.0" prefWidth="54.0" text="Close" />
+            <JFXButton minHeight="15.0" onAction="#close" prefHeight="38.0" prefWidth="54.0" text="Close" />
          </children>
       </HBox>
    </children>
