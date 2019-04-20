@@ -133,7 +133,6 @@ public class SongHubController implements Initializable {
         songsLv.setCellFactory(lv -> {
             SongListViewCell cell = new SongListViewCell();
             if(user != null){
-
                 cell.setUserID(user.getUserID());
                 cell.setPlaylist(user.getPlaylistList());
             }

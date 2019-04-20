@@ -4,9 +4,6 @@ package sample.Controllers.Cells;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.*;
-import javafx.scene.input.ClipboardContent;
-import javafx.scene.input.Dragboard;
-import javafx.scene.input.TransferMode;
 import javafx.scene.layout.HBox;
 import sample.Database.EventHandlers.SongDeleteHandler;
 import sample.Database.EventHandlers.SongFavoriteHandler;
@@ -58,52 +55,43 @@ public class SongListViewCell extends ListCell<Song> {
                 mLLoader.setController(this);
                 try {
                     mLLoader.load();
+                    cellSongLbl.setText(song.getSongTitle());
+                    cellArtistLbl.setText(song.getArtist());
+                    cellAlbumLbl.setText(song.getAlbum());
+                    cellGenreLbl.setText(song.getGenre());
+
+                    if(userID == -1){
+                        deleteItem.setDisable(true);
+                        addfavItem.setDisable(true);
+                        playlistSubMenu.setDisable(true);
+                    }
+
+                    deleteItem.setOnAction(event -> {
+                        SongDeleteHandler songDeleteHandler = new SongDeleteHandler();
+                        System.out.println("Delete " + getItem().getSongTitle() );
+                        songDeleteHandler.deleteSong(getItem().getSongID());
+                        getListView().getItems().remove(getItem());
+                    });
+
+                    addfavItem.setOnAction(event -> {
+                        SongFavoriteHandler songFavoriteHandler = new SongFavoriteHandler();
+                        songFavoriteHandler.favSong(getItem().getSongID(),userID);
+                    });
+
+                    for(int i = 0; i < playlists.size(); i++){
+                        Playlist playlist = playlists.get(i);
+                        MenuItem menuItem = new MenuItem(playlist.getPlaylistName());
+                        playlistSubMenu.getItems().add(menuItem);
+                    }
+
+                    setText(null);
+                    setGraphic(cellHbox);
+
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
 
             }
-
-            cellSongLbl.setText(String.valueOf(song.getSongTitle()));
-            cellArtistLbl.setText(song.getArtist());
-            cellAlbumLbl.setText(song.getAlbum());
-            cellGenreLbl.setText(song.getGenre());
-
-            if(userID == -1){
-                deleteItem.setDisable(true);
-                addfavItem.setDisable(true);
-                playlistSubMenu.setDisable(true);
-            }
-
-            deleteItem.setOnAction(event -> {
-                SongDeleteHandler songDeleteHandler = new SongDeleteHandler();
-                System.out.println("Delete " + getItem().getSongTitle() );
-                songDeleteHandler.deleteSong(getItem().getSongID());
-                getListView().getItems().remove(getItem());
-            });
-
-            addfavItem.setOnAction(event -> {
-                SongFavoriteHandler songFavoriteHandler = new SongFavoriteHandler();
-                songFavoriteHandler.favSong(getItem().getSongID(),userID);
-            });
-
-            for(int i = 0; i < playlists.size(); i++){
-                Playlist playlist = playlists.get(i);
-                MenuItem menuItem = new MenuItem(playlist.getPlaylistName());
-                playlistSubMenu.getItems().add(menuItem);
-            }
-
-            setOnDragDetected(event -> {
-                Dragboard db = this.startDragAndDrop(TransferMode.COPY_OR_MOVE);
-                db.setDragView(this.snapshot(null, null));
-                ClipboardContent cc = new ClipboardContent();
-                cc.putString(this.getItem().getSongID()+"");
-                db.setContent(cc);
-            });
-
-
-            setText(null);
-            setGraphic(cellHbox);
         }
     }
 
