@@ -25,7 +25,7 @@ public class RegistrationHandler{
 
         if(!existEmail && !existUsername) {
 
-            String sql = "INSERT INTO user (first_name, last_name, username, password, email, user_type)\n" +
+            String sql = "INSERT INTO user (first_name, last_name, username, password, email, type)\n" +
                     "values (?, ?, ?, ?, ?,?)";// insert insert user query here
             try {
                 prepStatement = myConn.prepareStatement(sql);
@@ -57,7 +57,7 @@ public class RegistrationHandler{
         int count = 0;
 
         String sql = "SELECT COUNT("+ column +")\n" +
-                "  FROM gulaplay.user\n" +
+                "  FROM songhub.user\n" +
                 " WHERE "+ column +" = '"+ check +"' \n" +
                 " LIMIT 0, 1"; // verify query
         try {

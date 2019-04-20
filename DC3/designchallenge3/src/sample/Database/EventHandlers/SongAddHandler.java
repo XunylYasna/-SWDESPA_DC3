@@ -55,7 +55,7 @@ public class SongAddHandler {
             String newGenre = "error";
 
             while (resultSet.next()){
-                songID = resultSet.getInt("SongID");
+                songID = resultSet.getInt("idsong");
                 newSongTitle = resultSet.getString("MusicTitle");
                 newArtist = resultSet.getString("Artist");
                 newAlbum = resultSet.getString("Genre");
@@ -102,7 +102,7 @@ public class SongAddHandler {
             prepStatement.execute();
 
             statement = myConn.createStatement();
-            sql = "Select * from song where idsong=LAST_INSERT_ID();";
+            sql = "Select * from song where idsong = LAST_INSERT_ID();";
             statement = myConn.createStatement();
             resultSet = statement.executeQuery(sql);
 

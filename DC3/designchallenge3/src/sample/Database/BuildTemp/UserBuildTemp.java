@@ -37,7 +37,7 @@ public class UserBuildTemp {
                 lastName = resultSet.getString("last_name");
                 password = resultSet.getString("password");
                 email = resultSet.getString("email");
-                type = resultSet.getString("user_type");
+                type = resultSet.getString("type");
 
                 user = new User(userID, username,firstName, lastName, password, email, type);
             }

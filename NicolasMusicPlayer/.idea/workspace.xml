@@ -2,29 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../DC3/designchallenge3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DC3/designchallenge3/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DC3/designchallenge3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DC3/designchallenge3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DC3/designchallenge3/out/production/designchallenge3/sample/Controllers/Cells/SongListViewCell.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DC3/designchallenge3/out/production/designchallenge3/sample/Controllers/Cells/SongListViewCell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DC3/designchallenge3/out/production/designchallenge3/sample/Database/BlobSongGetter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DC3/designchallenge3/out/production/designchallenge3/sample/Database/BlobSongGetter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DC3/designchallenge3/out/production/designchallenge3/sample/Database/BuildTemp/PlaylistBuildTemp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DC3/designchallenge3/out/production/designchallenge3/sample/Database/BuildTemp/PlaylistBuildTemp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DC3/designchallenge3/out/production/designchallenge3/sample/Database/BuildTemp/SongListBuildTemp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DC3/designchallenge3/out/production/designchallenge3/sample/Database/BuildTemp/SongListBuildTemp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DC3/designchallenge3/out/production/designchallenge3/sample/Database/BuildTemp/UserBuildTemp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DC3/designchallenge3/out/production/designchallenge3/sample/Database/BuildTemp/UserBuildTemp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DC3/designchallenge3/out/production/designchallenge3/sample/Database/DatabaseConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DC3/designchallenge3/out/production/designchallenge3/sample/Database/DatabaseConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DC3/designchallenge3/out/production/designchallenge3/sample/Database/EventHandlers/LoginHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DC3/designchallenge3/out/production/designchallenge3/sample/Database/EventHandlers/LoginHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DC3/designchallenge3/out/production/designchallenge3/sample/Database/EventHandlers/PlayListAddHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DC3/designchallenge3/out/production/designchallenge3/sample/Database/EventHandlers/PlayListAddHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DC3/designchallenge3/out/production/designchallenge3/sample/Database/EventHandlers/PlaylistSongAddHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DC3/designchallenge3/out/production/designchallenge3/sample/Database/EventHandlers/PlaylistSongAddHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DC3/designchallenge3/out/production/designchallenge3/sample/Database/EventHandlers/RegistrationHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DC3/designchallenge3/out/production/designchallenge3/sample/Database/EventHandlers/RegistrationHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DC3/designchallenge3/out/production/designchallenge3/sample/Database/EventHandlers/SongAddHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DC3/designchallenge3/out/production/designchallenge3/sample/Database/EventHandlers/SongAddHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DC3/designchallenge3/out/production/designchallenge3/sample/Database/EventHandlers/SongDeleteHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../DC3/designchallenge3/out/production/designchallenge3/sample/Database/EventHandlers/SongDeleteHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DC3/designchallenge3/src/sample/Controllers/Cells/SongListViewCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DC3/designchallenge3/src/sample/Controllers/Cells/SongListViewCell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DC3/designchallenge3/src/sample/Database/BuildTemp/UserBuildTemp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DC3/designchallenge3/src/sample/Database/BuildTemp/UserBuildTemp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DC3/designchallenge3/src/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicPlayerUI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MusicPlayerUI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MusicPlayerUI/sample/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MusicPlayerUI/sample/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/sample.fxml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,27 +57,6 @@
     <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-2050212821">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="3" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="JavaFxApplication" />
   </component>
@@ -105,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            <state relative-caret-position="54">
+              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -114,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="-167">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -124,8 +84,8 @@
         <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1411">
-              <caret line="83" selection-start-line="83" selection-end-line="83" />
+            <state relative-caret-position="1404">
+              <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -148,18 +108,11 @@
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="330" />
-    <option name="y" value="25" />
-    <option name="width" value="930" />
-    <option name="height" value="735" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -170,9 +123,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,18 +139,19 @@
               <item name="NicolasMusicPlayer" type="b2602c69:ProjectViewProjectNode" />
               <item name="NicolasMusicPlayer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Images" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NicolasMusicPlayer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NicolasMusicPlayer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -215,7 +166,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555699041025" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DC3/designchallenge3/lib/mysql-connector-java-8.0.15.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DC3/designchallenge3/src" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -251,7 +202,7 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -280,6 +231,7 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
@@ -288,7 +240,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
+    <configuration default="true" type="TestNG">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
@@ -299,11 +251,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -325,19 +277,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3542000" />
+    <option name="totallyTimeSpent" value="3913000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.21208054" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.12579957" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3272727" />
@@ -353,6 +305,7 @@
       <window_info anchor="bottom" id="Event Log" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32867134" />
       <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -369,9 +322,6 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
@@ -383,23 +333,23 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="-167">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        <state relative-caret-position="54">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        <state relative-caret-position="1404">
+          <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
         </state>
       </provider>
     </entry>

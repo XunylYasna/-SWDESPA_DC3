@@ -8,7 +8,7 @@ public class DatabaseConnection {
 
     private static final String url = "jdbc:mysql://localhost:3306/songhub?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
     private static final String user = "root";
-    private static final String password = "toor";//"Mionixsargas101!";
+    private static final String password = "Mionixsargas101!";
 
     static Connection conn = null;
 
